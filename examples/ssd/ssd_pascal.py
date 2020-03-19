@@ -331,7 +331,8 @@ clip = False
 # Defining which GPUs to use.
 gpus = "0,1,2,3"
 gpulist = gpus.split(",")
-num_gpus = len(gpulist)
+#num_gpus = len(gpulist)
+num_gpus = 0
 
 # Divide the mini-batch to different GPUs.
 batch_size = 32
